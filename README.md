@@ -1,1 +1,2 @@
-# conventional-commit.ocaml
+# Conventional-Commit written in OCaml
+
