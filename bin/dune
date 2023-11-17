@@ -1,0 +1,4 @@
+(executable
+ (public_name conventional_commit)
+ (name main)
+ (libraries conventional_commit))
