@@ -1,4 +1,4 @@
 (executable
  (public_name conventional_commit)
  (name main)
- (libraries conventional_commit))
+ (libraries conventional_commit cmdliner))

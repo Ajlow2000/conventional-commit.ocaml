@@ -17,6 +17,7 @@
         ocamlPackages.dune_3
         ocamlPackages.utop
         ocamlPackages.ocamlformat-rpc-lib
+        ocamlPackages.cmdliner
       ];
 
     };

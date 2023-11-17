@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github Ajlow2000/conventional-commit.ocaml))
 
-(authors "Author Name")
+(authors "Alec Lowry")
 
-(maintainers "Maintainer Name")
+(maintainers "Alec Lowry")
 
 (license LICENSE)
 
@@ -17,8 +17,11 @@
 
 (package
  (name conventional_commit)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A tool for generating Convetional Commits")
+ (description "A tool based on
+              https://www.conventionalcommits.org/en/v1.0.0/
+              but with some extensions for my
+              personal workflow")
  (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
